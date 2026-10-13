@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #00bcd4;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.hero {
+    background: #333;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.btn {
+    background: #00bcd4;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contenedor {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    background: #eef9fa;
+    padding: 15px;
+    border-left: 4px solid #00bcd4;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #f0f0f0;
+}
+
+td img {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Sección Contáctenos y Formulario */
+.contacto-box {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.contacto-info, .contacto-form {
+    flex: 1;
+    min-width: 280px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-enviar {
+    background: #006400; /* Verde corporativo similar al ejemplo */
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-enviar:hover {
+    background: #004d00;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 13px;
+}
